@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="header">
       <div class="container d-flex align-items-center justify-content-between">
         <a class="header-logo" href="#">
           <img src="../assets/images/logo.svg" alt="logo" width="175" height="44">
@@ -58,9 +58,8 @@ export default {
 
 <style>
 
-  header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+  .header {
+    padding-bottom: 104px;
   }
 
   .header-logo {
@@ -85,8 +84,6 @@ export default {
   }
 
   .sitenav-link {
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -105,9 +102,8 @@ export default {
   }
 
   .sitenav-select {
+    background: none;
     appearance: none;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 24px;
