@@ -55,7 +55,6 @@ export default {
 
   .hero-background {
     padding-top: 24px;
-    padding-bottom: 139px;
     background-image: url(../assets/images/background.png);
     background-size: cover;
   }
