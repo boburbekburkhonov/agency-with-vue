@@ -7,12 +7,36 @@
       :secondHeading='heading'
       :desc='desc'  />
 
-      <ul class="services-list list-unstyled p-0">
+      <ul class="d-flex align-items-center justify-content-between services-list list-unstyled p-0">
         <li class="services-item">
           <img src="../assets/images/cofe.png" alt="cofe" width="64" height="64">
 
           <h3 class="services-list-heading">
             Keşif ve Planlama
+          </h3>
+
+          <p class="services-list-desc">
+            Belirlenen strateji ile tasarımın ve yazılımın oluşturulması sağlanır.
+          </p>
+        </li>
+
+        <li class="services-item">
+          <img src="../assets/images/cubik.png" alt="cofe" width="64" height="64">
+
+          <h3 class="services-list-heading">
+            Tasarım ve Geliştirme
+          </h3>
+
+          <p class="services-list-desc">
+            Belirlenen strateji ile tasarımın ve yazılımın oluşturulması sağlanır.
+          </p>
+        </li>
+
+        <li class="services-item">
+          <img src="../assets/images/time.png" alt="cofe" width="64" height="64">
+
+          <h3 class="services-list-heading">
+            Test ve Yayına Alma
           </h3>
 
           <p class="services-list-desc">
@@ -43,6 +67,7 @@ export default {
 
   .services {
     padding-top: 139px;
+    padding-bottom: 120px;
   }
 
   .services-list {
