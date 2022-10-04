@@ -1,5 +1,7 @@
 <template>
-  <section class="services">
+  <section class="services" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
     <div class="container">
       <my-desc
       :firstHeading='headingSmall'
@@ -50,6 +52,8 @@
 
 <script>
 import MyDesc from './UI/MyDesc.vue'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 export default {
   components: { MyDesc },
   data() {
@@ -59,6 +63,9 @@ export default {
       heading:'3 adımda çalışma sürecimiz',
       desc:'360° dijital marka danışmanlığı, web tasarım ve reklam ajansıdır. İşletmelerin ihtiyaçlarına uygun web tasarım ve web yazılım hizmetleri sunmaktayız.'
     }
+  },
+  mounted(){
+    AOS.init()
   }
 }
 </script>
