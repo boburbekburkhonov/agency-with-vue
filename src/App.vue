@@ -4,6 +4,7 @@
       <services />
       <center/>
       <advertising/>
+      <cards />
     </main>
 </template>
 
@@ -12,12 +13,14 @@ import Hero from './components/Hero.vue'
 import Services from './components/Services.vue'
 import Center from './components/Center.vue'
 import Advertising from './components/Advertising.vue'
+import Cards from './components/Cards.vue'
 export default {
   components:{
     Hero,
     Services,
     Center,
-    Advertising
+    Advertising,
+    Cards
   }
 }
 </script>
