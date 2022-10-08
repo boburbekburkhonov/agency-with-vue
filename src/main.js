@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import Components from './components/UI'
+import { CAlert } from '@coreui/vue';
 
 const app = createApp(App)
 

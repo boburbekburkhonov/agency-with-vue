@@ -59,7 +59,8 @@ export default {
 <style>
 
   .header {
-    padding-bottom: 104px;
+    border: none !important;
+    background: none !important;
   }
 
   .header-logo {

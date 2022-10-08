@@ -60,6 +60,7 @@ export default {
   }
 
   .hero-top {
+    padding: 68px;
     display: flex;
     flex-direction: column;
     align-items: center;

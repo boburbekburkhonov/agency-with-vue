@@ -1,5 +1,7 @@
 <template>
-  <section class="center">
+  <section class="center" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
     <div class="container d-flex align-items-center justify-content-center flex-column">
       <h3 class="center-heading">
         Ürününüz veya hizmetiniz için en iyisini birlikte yapalım.
@@ -18,6 +20,8 @@
 
 <script>
 import MyButton from './UI/MyButton.vue'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 export default {
   components: { MyButton },
 

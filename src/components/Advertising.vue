@@ -1,5 +1,7 @@
 <template>
-  <section class="advertising">
+  <section class="advertising" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
     <div class="container">
       <my-desc
       :firstHeading='headingSmall'
@@ -60,7 +62,8 @@
 
 <script>
 import MyDesc from './UI/MyDesc.vue'
-
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 export default {
   components: { MyDesc },
     data() {
